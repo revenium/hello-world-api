@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-hosted-rest-api
+  description: Hosted REST API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-b
+  definition:
+    $text: |
+      https://raw.githubusercontent.com/revenium/hello-world-api/refs/heads/main/api-spec.yaml
