@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-rest-api
+  description: An example REST API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-a
+  definition: openapi:./api-spec.yaml
