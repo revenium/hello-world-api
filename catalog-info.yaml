@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world-api
+  annotations:
+    github.com/project-slug: revenium/hello-world-api
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
