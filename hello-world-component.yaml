@@ -7,6 +7,4 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-b
-  definition:
-    $text: |
-      https://raw.githubusercontent.com/revenium/hello-world-api/refs/heads/main/api-spec.yaml
+  definition: https://raw.githubusercontent.com/revenium/hello-world-api/main/api-spec.yaml
