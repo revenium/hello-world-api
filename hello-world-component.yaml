@@ -6,5 +6,5 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: team-b
+  owner: guests
   definition: https://raw.githubusercontent.com/revenium/hello-world-api/main/api-spec.yaml
