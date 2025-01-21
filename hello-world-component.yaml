@@ -7,4 +7,16 @@ spec:
   type: openapi
   lifecycle: production
   owner: guests
-  definition: https://raw.githubusercontent.com/revenium/hello-world-api/refs/heads/main/api-spec.yaml
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: My Hosted REST API
+      version: 1.0.0
+      description: This is a sample REST API.
+    paths:
+      /example:
+        get:
+          summary: Example endpoint
+          responses:
+            '200':
+              description: Successful response
