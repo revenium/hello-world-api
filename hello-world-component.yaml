@@ -7,4 +7,4 @@ spec:
   type: openapi
   lifecycle: production
   owner: guests
-  definition: https://raw.githubusercontent.com/revenium/hello-world-api/main/api-spec.yaml
+  definition: https://github.com/revenium/hello-world-api/blob/main/api-spec.yaml
